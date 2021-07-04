@@ -6,15 +6,87 @@
 h1{
     font-size: 50px;
 }
-.first-banner{
+.part-banner{
     display: flex;
+    padding: 3%;
+
 }
-.first-banner-content{}
+.banner-content{
+    text-align: justify;
+}
 .color-orange{
     color: orange;
 }
-.first-banner-content h1{}
-.first-banner-content h2{}
-.first-banner-content p{}
+.banner-content h1{
+    color: grey;
+    font-weight: 900;
+}
+.banner-content h2{
+    margin-bottom: 7px;
+    color: grey;
+}
+.banner-content p{
+    margin-bottom: 20px;
+}
+.banner-content a{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+
+}
 .first-banner-img{}
 .first-banner-img img{}
+
+/* start experience part */
+.experience-part .color-orange{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.exp-part{
+    display: flex;
+    padding: 3%;
+}
+.exp-part-one{
+    padding: 2%;
+   margin-left: 3%;
+   margin-right: 3%;
+   box-shadow: 10px 10px 40px gray;
+}
+.exp-part-one h1{
+    color: gray;
+    margin-bottom: 10px;
+}
+.exp-part-one h2{
+    margin-bottom: 10px;
+    color: orange;
+
+}
+.exp-part-one p{
+    margin-bottom: 20px;
+}
+.exp-part-one a{
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+#border-lef{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,orange);
+    border-image-slice: 1;
+}
+#border-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 40px;
+}
